@@ -1,0 +1,311 @@
+/* General */
+
+*body {
+    background-color: #fffdf5;
+    background: url(full-s-bkg.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* Pages */
+#home {   
+    background-color: #f1edda;
+    width: 100%;
+    height: 825px;
+}
+
+#about {
+    background-color: #fffdf5;
+    height: 825px;
+}
+
+#work {
+    background-color: #fffdf5;
+    height: 825px;
+}
+
+#contact {
+    background-color: #6b594e;
+    height: 500px;
+}
+
+/* Navbar */
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: fixed;
+    background-color: transparent;
+    top: 0;
+}
+  
+.navbar-logo {
+    height: 30px;
+    width: 100px;
+    display: flex;
+}
+
+li {
+    float: right;
+}
+  
+li a {
+    display: block;
+    color: #6b594e;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Courier";
+
+}
+
+a:hover {
+    font-weight: bold;
+    color: black;
+}
+
+a {
+    color: #6b594e;
+    text-decoration: none;
+}
+
+/* Colors */
+.beige {
+    background-color: #f1edda;
+    color: #f1edda;
+}
+
+.cream {
+    background-color: #fffdf5;
+    color: #fffdf5;
+}
+
+.dark-brown {
+    background-color: #6b594e;
+    color: #6b594e;
+}
+
+/* Text Styles */
+h1 {
+    font-family: "Oranienbaum";
+    color: #6b594e;
+    font-size: 200px;
+}
+
+h2 {
+    font-family: "Gloock";
+    color: #6b594e;
+    font-size: 100px;
+}
+
+h3 {
+    font-family: "Courier";
+    color: #6b594e;
+    font-size: 25px;
+}
+
+h4 {
+    font-family: "Courier";
+    color:#6b594e;
+    font-size: 20px;
+}
+
+h5 {
+    font-family: "Courier";
+    color: #6b594e;
+    font-size: 15px;
+}
+
+h6 {
+    font-family: "Courier";
+    color: #6b594e;
+    font-size: 13px;
+}
+/* Home Page */
+.home-text-h1 {
+    position: absolute;
+    left: 650px;
+    top: 200px;
+}
+
+.home-text-h3 {
+    position: absolute;
+    left: 1000px;
+    top: 325px;
+    align-self: right
+}
+
+.home-img {
+    position: absolute;
+    scale: 43%;
+    left: -450px;
+    top: -600px;
+}
+
+.button {
+    position: absolute;
+    background-color: #6b594e;
+    border: #6b594e;
+    border-radius: 20px;
+    color: #fffdf5;
+    padding: 10px;
+    text-align: center;
+    font-family: "Courier";
+    font-size: 14px;
+    border-radius: 8px;
+}
+
+#bhome {
+    left: 1050px;
+    top: 600px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: white;
+    color:#6b594e;
+    font-weight: bold;
+}
+
+/* About Page */
+.about-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 200px;
+    width: 475px;
+    align-content: center;
+    align-items: stretch;
+    position: relative;
+    top: 300px;
+    left: 200px;
+}
+
+.abt-img {
+    position: relative;
+    top: -100px;
+    left: 800px;
+    scale: 90%;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 40px;
+}
+
+/* Work Page */
+.work-txt-container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end right;
+    flex-wrap: wrap;
+    height: 200px;
+    width: 500px;
+    align-content: center;
+    align-items: stretch;
+    position: relative;
+    top: 400px;
+    left: 900px;
+}
+
+.work-grid-container {
+    display: grid;
+    column-gap: 200px;
+    row-gap: 100px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 40% 40%;
+}
+
+.grid-txt {
+    display: grid;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 200px;
+    width: 300px;
+    align-content: center;
+    align-items: stretch;
+    position: relative;
+    top: 25px;
+    left: 60px;
+}
+
+.grid-img {
+    display: grid;
+    position: relative;
+    height: 200px;
+    width: 350px;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 40px;
+    border-color:#6b594e;
+}
+
+.grid-img:hover {
+    scale: 125%;
+}
+
+/* Contact Page */
+.contact-txt {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 200px;
+    width: 500px;
+    align-content: center;
+    align-items: flex-start;
+    position: relative;
+    top: 100px;
+    left: 150px;
+}
+label, input {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    font-size: 20px; 
+    font-family: Courier; 
+    color:#6b594e;
+}
+
+input {
+    border-radius: 30px;
+    border-color: transparent;
+    background-color:#6b594e;
+    color:#f1edda;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 6px;
+}
+
+.ct-form {
+    background-color: #f1edda;
+    height: 350px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    position: relative;
+    top: -150px;
+    left: 800px;
+    border-radius: 40px;
+    padding: 30px;
+}
+
+input::placeholder {
+    font-size: 15px;
+    font-family: "Courier";
+    color:#f1edda;
+    align-self: top;
+    float: left;
+}
+
+#submit:hover {
+    background-color: white;
+    color: #6b594e;
+}

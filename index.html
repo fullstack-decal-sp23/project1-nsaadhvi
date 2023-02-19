@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Personal Website</title>
+    <!-- <author>Saadhvi Narayanan</author> -->
+    <meta charset="UTF=8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Courier'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Oranienbaum'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Gloock'>
+</head>
+
+<body>
+        <ul class="navbar">
+            <li><a href="#home"><img class="navbar-logo" src="saadhvi-logo.png"></a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#about">About</a></li> 
+        </ul>
+    <section id="home">
+                <img class="home-img" src="saa-home.png">
+                <h3 class="home-text-h3">Hello, my name is</h3>
+                <h1 class="home-text-h1">Saadhvi.</h1>
+                <a href="#about"><button class="button" id="bhome">Welcome to my website!</button></a>
+            
+    </section>
+
+    <section id="about">
+        <div class="about-container">
+            <h2>About Me</h2>
+            <h5>It's lovely to meet you! I'm Saadhvi, a first-year bioengineering student at UC Berkeley.</h5>
+            <h5>Born in India, I've lived in the U.S. for 17 years. Recently, I have been visual designing, making art, coding, reading.</h5>
+        `   <h5>When I'm not pursuing my passions, I'm working to empower student communities to pursue STEAM, within and without Berkeley. I especially love sharing with others my positivity through art. Check out my art <a target="_blank" style="color:#f1edda; background-color:#6b594e;"; href="https://www.instagram.com/__ka.lai__">@__ka.lai__ here!</a></h5>
+        </div>
+        <img class="abt-img" src="saadhvi_about.png">
+    </section>
+
+    <section id="work">
+        <div class="work-txt-container">
+            <h2>Work</h2>
+            <h4>my passions.</h4>
+        </div>
+        <div class="work-grid-container">
+            <div class="grid-txt">
+                <a target="_blank" href="https://www.instagram.com/__ka.lai__"><img class="grid-img" src="grid-ig.png"></a>
+                <h6>digital art | instagram | @__ka.lai</h6>
+            </div>
+
+            <div class="grid-txt">
+                <a target="_blank" href="___"><img class="grid-img" src="grid-img.png"></a>
+                <h6>more coming soon!</h6>
+            </div>
+            <div class="grid-txt">
+                <a target="_blank" href="____"><img class="grid-img" src="grid-img.png"></a>
+                <h6>more coming soon!</h6>
+            </div>
+            <div class="grid-txt">
+                <a target="_blank" href="____"><img class="grid-img" src="grid-img.png"></a>
+                <h6>more coming soon!</h6>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact-txt">
+            <h2 style="color: #f1edda; font-size: 75px;">Contact me</h3>
+            <h4 style="color: #f1edda">I would love to know you!</h4>
+        </div>
+        <div class="ct-form">
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Name">
+                <br>
+                <label for="email">Email address:</label>
+                <input type="text" id="email" placeholder="Email Address">
+                <br>
+                <label for="message">Message:</label>
+                <input style="height: 100px; width: 500px;" type="text" id="message" placeholder="Any inquiries? Let me know!">
+                <br>
+                <input onclick="myFunction()" type="submit" id="submit" value="Submit">
+                <script>
+                    function myFunction() {
+                      alert("Thanks for submitting! Excited to meet you!");
+                    }
+                </script>
+            </form>
+        </div>
+    </section>
+</body>
